@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "CoreMind LLC",
   tagline: "Dinosaurs are cool",
-  url: "https://docs.coremind.mn",
+  url: "https://coremind-docu.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
