@@ -1,5 +1,5 @@
 ---
-id: prometheus-retention
+slug: prometheus-retention
 title: Prometheus Retention
 authors: [uuganbat]
 tags: [prometheus]

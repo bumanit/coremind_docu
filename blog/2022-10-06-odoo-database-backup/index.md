@@ -29,3 +29,15 @@ pg_dump -h localhost -U postgres -W -d mydb | gzip > mydb.sql.gz
 ```bash
 gunzip -c mydb.sql.gz | psql -h localhost -U postgres -W -d mydb
 ```
+
+## Docker database backup and restore
+
+### Run psql command
+
+:::note
+Must incluse database name -d database
+:::
+
+```bash
+docker exec -it $container psql -U $odoo -d $database
+```
