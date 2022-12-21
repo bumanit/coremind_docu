@@ -73,6 +73,7 @@ const config = {
             label: "Docs",
           },
           { to: "/servers", label: "Servers", position: "left" },
+          { to: "/server", label: "Server", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/uuganbat/coremind-docu",
