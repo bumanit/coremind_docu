@@ -73,7 +73,6 @@ const config = {
             label: "Docs",
           },
           { to: "/servers", label: "Servers", position: "left" },
-          { to: "/server", label: "Server", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/uuganbat/coremind-docu",
@@ -130,6 +129,29 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "WMNJ7AE1EI",
+
+        // Public API key: it is safe to commit it
+        apiKey: "b6c74c6ad9e0d585ac59fa10fac50f25",
+
+        indexName: "coremind",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+
+        //... other Algolia params
       },
     }),
 };
