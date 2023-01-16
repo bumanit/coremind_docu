@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "CoreMind LLC",
-  tagline: "Dinosaurs are cool",
+  tagline: "Дотоод үйл ажиллагааны гарын авлага",
   url: "https://coremind-docu.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -68,7 +68,7 @@ const config = {
           // },
           {
             type: "doc",
-            docId: "greetings",
+            docId: "getting_started",
             position: "left",
             label: "Docs",
           },
