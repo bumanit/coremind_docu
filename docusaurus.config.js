@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/uuganbat/coremind-docu/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/uuganbat/coremind-docu/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -63,17 +61,15 @@ const config = {
           src: "img/coremind.png",
         },
         items: [
-          // {
-          //   type: "docsVersionDropdown",
-          // },
           {
             type: "doc",
-            docId: "greetings",
+            docId: "performance",
             position: "left",
             label: "Docs",
           },
           { to: "/servers", label: "Servers", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
+          // { type: "docsVersionDropdown", position: "right" },
           {
             href: "https://github.com/uuganbat/coremind-docu",
             label: "GitHub",
@@ -89,7 +85,7 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/greetings",
+                to: "/docs/performance",
               },
             ],
           },
