@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Odoo",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/odoo_logo.svg").default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
