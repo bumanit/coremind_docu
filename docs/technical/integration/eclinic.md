@@ -1,9 +1,9 @@
 ---
 description: eclinic api endpoints
-title: Eclininc api endpoints
+title: Eclinic api endpoints
 keywords:
   - eclinic
-sidebar_position: 2
+# sidebar_position: 2
 ---
 
 # URL

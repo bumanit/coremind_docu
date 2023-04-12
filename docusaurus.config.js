@@ -63,7 +63,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "performance",
+            docId: "overview",
             position: "left",
             label: "Docs",
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/performance",
+                to: "/docs/overview",
               },
             ],
           },

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+title: Odoo Performance Improvement
+description: Odoo Performance Improvement
+sidebar_position: 2
 ---
-
-# Odoo Performance Improvement
 
 :::tip
 

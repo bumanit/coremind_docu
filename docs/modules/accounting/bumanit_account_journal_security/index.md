@@ -3,7 +3,7 @@ title: Bumanit Account Journal Security
 description: Bumanit Account Journal Security
 keywords:
   - bumanit_account_journal_security
-sidebar_position: 2
+# sidebar_position: 2
 ---
 
 ### Technical name

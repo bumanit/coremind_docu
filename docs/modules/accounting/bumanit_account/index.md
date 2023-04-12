@@ -4,7 +4,7 @@ title: Bumanit Account
 keywords:
   - bumanit_account
 # hide_table_of_contents: true
-sidebar_position: 1
+# sidebar_position: 1
 ---
 
 ### Technical name
