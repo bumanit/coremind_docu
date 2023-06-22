@@ -19,3 +19,14 @@ openssl pkcs12 -in tdb.pfx -clcerts -nokeys --out prod.cer
 openssl pkcs12 -in tdb.pfx -nodes -out prod_key_cer.pem
 
 ```
+
+## Install bumanerp.mn certificate
+
+```bash
+
+sudo cp bumanerpCA.crt /usr/share/ca-certificates/
+cd /usr/share/ca-certificates/
+sudo dpkg-reconfigure ca-certificates
+sudo update-ca-certificates
+
+```
