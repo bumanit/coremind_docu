@@ -20,7 +20,7 @@ export default function Hello() {
                       <th>Type</th>
                       <th>Company</th>
                       <th>User Login</th>
-                      <th>Work</th>
+                      <th>Cron / Service</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -29,6 +29,13 @@ export default function Hello() {
                       <td>Database</td>
                       <td>Monos group</td>
                       <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.18</td>
+                      <td>Database</td>
+                      <td>Monos group</td>
+                      <td>monoserp</td>
                       <td>Service</td>
                     </tr>
                     <tr>
@@ -42,13 +49,6 @@ export default function Hello() {
                       <td>10.0.0.137</td>
                       <td>Application</td>
                       <td>Monos Cosmetics</td>
-                      <td>Domain</td>
-                      <td>Service</td>
-                    </tr>
-                    <tr>
-                      <td>10.0.0.145</td>
-                      <td>Application</td>
-                      <td>Monos Foods</td>
                       <td>Domain</td>
                       <td>Service</td>
                     </tr>
@@ -69,14 +69,14 @@ export default function Hello() {
                     <tr>
                       <td>10.0.0.165</td>
                       <td>Application</td>
-                      <td>Monos Ulaanbaatar</td>
+                      <td>Monos Foods</td>
                       <td>Domain</td>
                       <td>Service</td>
                     </tr>
                     <tr>
                       <td>10.0.0.166</td>
                       <td>Application</td>
-                      <td>Monos ON</td>
+                      <td>Undram Khan Khangai</td>
                       <td>Domain</td>
                       <td>Service</td>
                     </tr>
@@ -84,20 +84,6 @@ export default function Hello() {
                       <td>10.0.0.167</td>
                       <td>Application</td>
                       <td>Monos Group, Thombo, Timus</td>
-                      <td>Domain</td>
-                      <td>Service</td>
-                    </tr>
-                    <tr>
-                      <td>10.0.0.168</td>
-                      <td>Application</td>
-                      <td>Undram Khan Khangai</td>
-                      <td>Domain</td>
-                      <td>Service</td>
-                    </tr>
-                    <tr>
-                      <td>10.0.0.169</td>
-                      <td>Application</td>
-                      <td>Monos Ulaanbaatar Office</td>
                       <td>Domain</td>
                       <td>Service</td>
                     </tr>
@@ -119,36 +105,136 @@ export default function Hello() {
                       <th>Type</th>
                       <th>Company</th>
                       <th>User Login</th>
-                      <th>Work</th>
+                      <th>Cron / Service</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>10.0.0.15</td>
-                      <td>app</td>
-                      <td>Monos group</td>
+                      <td>Application</td>
+                      <td>Monos Group</td>
                       <td>monoserp</td>
                       <td>Service</td>
                     </tr>
                     <tr>
                       <td>10.0.0.16</td>
-                      <td>app</td>
-                      <td>Monos group</td>
+                      <td>Application</td>
+                      <td>Monos Group</td>
                       <td>monoserp</td>
                       <td>Service</td>
                     </tr>
                     <tr>
                       <td>10.0.0.19</td>
-                      <td>app</td>
-                      <td>Monos group</td>
+                      <td>Application</td>
+                      <td>Monos Group</td>
+                      <td>monoserp</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.22</td>
+                      <td>Application</td>
+                      <td>Monos Group</td>
                       <td>monoserp</td>
                       <td>Service</td>
                     </tr>
                     <tr>
                       <td>10.0.0.132</td>
-                      <td>app</td>
-                      <td>Monos group</td>
+                      <td>Application</td>
+                      <td>Monos Group</td>
                       <td>monoserp</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.182</td>
+                      <td>Database</td>
+                      <td>Monos Group</td>
+                      <td>monoserp</td>
+                      <td>Service</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </TabItem>
+              <TabItem value="monos_ub" label="Monos UB">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Server</th>
+                      <th>Type</th>
+                      <th>Company</th>
+                      <th>User Login</th>
+                      <th>Cron / Service</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>10.0.0.94</td>
+                      <td>Database</td>
+                      <td>Monos Ulaanbaatar</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.95</td>
+                      <td>Database replica</td>
+                      <td>Monos Ulaanbaatar</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.96</td>
+                      <td>Application</td>
+                      <td>Monos Ulaanbaatar</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.126</td>
+                      <td>Cron</td>
+                      <td>Monos Ulaanbaatar</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </TabItem>
+              <TabItem value="monos_on" label="Monos ON">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Server</th>
+                      <th>Type</th>
+                      <th>Company</th>
+                      <th>User Login</th>
+                      <th>Cron / Service</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>10.0.0.107</td>
+                      <td>app</td>
+                      <td>Monos ON</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.127</td>
+                      <td>cron</td>
+                      <td>Monos ON</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.105</td>
+                      <td>db</td>
+                      <td>Monos ON</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.106</td>
+                      <td>db replica</td>
+                      <td>Monos ON</td>
+                      <td>Domain</td>
                       <td>Service</td>
                     </tr>
                   </tbody>
@@ -163,7 +249,7 @@ export default function Hello() {
                       <th>Version</th>
                       <th>Company</th>
                       <th>User Login</th>
-                      <th>Work</th>
+                      <th>Cron / Service</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -203,7 +289,7 @@ export default function Hello() {
                       <th>Type</th>
                       <th>Company</th>
                       <th>User Login</th>
-                      <th>Work</th>
+                      <th>Cron / Service</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -343,7 +429,7 @@ export default function Hello() {
                       <th>Type</th>
                       <th>Name</th>
                       <th>User Login</th>
-                      <th>Work</th>
+                      <th>Cron / Service</th>
                     </tr>
                   </thead>
                   <tbody>

@@ -128,3 +128,48 @@ stock_move_line дэх бичлэгийн тоо
 7. Power BI
    1. Монос Фарм Трейд
 8. Борлуулалтын тайлан бусад компаниар харах
+
+## Шийдэл
+
+1. Монос Улаанбаатар үндсэн МЕТА дата бүрдүүлэх бааз бусад компаниуд татна
+
+## Өгөгдөл устгах
+
+```sql
+
+# stock.move delete
+CREATE INDEX mrp_workorder_line_move_id_idx ON mrp_workorder_line(move_id)
+CREATE INDEX stock_scrap_move_id_idx ON stock_scrap(move_id)
+CREATE INDEX stock_valuation_adjustment_lines_move_id_idx ON stock_valuation_adjustment_lines(move_id)
+DELETE FROM stock_move WHERE id = ANY(SELECT id FROM stock_move WHERE state = 'cancel' AND company_id = 66 LIMIT 100000)
+DROP INDEX mrp_workorder_line_move_id_idx
+DROP INDEX stock_scrap_move_id_idx
+DROP INDEX stock_valuation_adjustment_lines_move_id_idx
+
+# stock.picking delete
+CREATE INDEX quality_check_picking_id_idx ON quality_check(picking_id)
+CREATE INDEX stock_package_level_picking_id_idx ON stock_package_level(picking_id)
+CREATE INDEX stock_scrap_picking_id_idx ON stock_scrap(picking_id)
+CREATE INDEX stock_revert_line_picking_id_idx ON stock_revert_line(picking_id)
+DELETE FROM stock_picking WHERE id IN (SELECT id FROM stock_picking WHERE state = 'cancel' AND company_id = 66 LIMIT 1000)
+DROP INDEX quality_check_picking_id_idx
+DROP INDEX stock_package_level_picking_id_idx
+DROP INDEX stock_scrap_picking_id_idx
+DROP INDEX stock_revert_line_picking_id_idx
+
+DELETE FROM stock_move_line WHERE id = ANY(SELECT id FROM stock_move_line WHERE state = 'cancel' AND company_id = 66 LIMIT 100)
+
+```
+
+```sql
+
+SELECT
+   schemaname || '.' || relname as table,
+   n_live_tup as num_rows
+FROM
+   pg_stat_user_tables
+ORDER BY
+   n_live_tup DESC
+LIMIT
+   10;
+```
