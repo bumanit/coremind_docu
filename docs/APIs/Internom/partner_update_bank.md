@@ -8,12 +8,12 @@ title: Харилцагчийн банкны мэдээлэл шинэчлэх
 `POST: http://test-internom.bumanerp.mn/api/internom/partners/bank/update` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_internom` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн ACS талаас барааны мэдээллийг
 erp системд шинэчилнэ.
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
@@ -42,7 +42,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -65,7 +65,7 @@ bankcode_not_found - "Хэрвээ False ирвэл банкны богино к
 
 ```
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem  default>
                 <table>

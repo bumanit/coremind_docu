@@ -7,12 +7,12 @@ title: Нөхөн дүүргэлт үүсгэх
 `POST: http://test-internom.bumanerp.mn/api/internom/transit` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_internom` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн ACS талаас барааны мэдээллийг
 erp системд шинэчилнэ.
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
@@ -37,7 +37,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -51,7 +51,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem  default>
                 <table>

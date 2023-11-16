@@ -7,11 +7,11 @@ title: Харилцагч руу ебаримт илгээх
 `POST: http://localhost:8069/api/brickmedia/send_mail` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_brickland` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн brickland талаас сэрвисийг ашиглана.
 .
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
@@ -23,7 +23,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -45,7 +45,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 `KEYS -> MAIL`
 
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem  default>
                 <table>

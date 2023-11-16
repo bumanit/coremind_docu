@@ -8,12 +8,12 @@ title: Борлуулалтын дата авах
 `POST: http://test-internom.bumanerp.mn/api/internom/sale/data` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_internom` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн ACS талаас барааны мэдээллийг
 erp системд шинэчилнэ.
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
@@ -27,7 +27,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -119,7 +119,7 @@ sold_item_list -
 
 ```
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem  default>
                 <table>

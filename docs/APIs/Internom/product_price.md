@@ -8,12 +8,12 @@ title: Барааны үнийн мэдээлэл шинэчлэх
 `POST: http://test-internom.bumanerp.mn/api/internom/products/price` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_internom` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн ACS талаас барааны мэдээллийг
 erp системд шинэчилнэ.
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Basic ZGVtbzpwQDU1dzByZA==`
@@ -26,7 +26,7 @@ Example: Authorization: `Basic ZGVtbzpwQDU1dzByZA==`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -45,7 +45,7 @@ Example: Authorization: `Basic ZGVtbzpwQDU1dzByZA==`
 
 Интерном нь зохиолчийн номыг дамжуулан зарж тодорхой хэмжээний хувь тохиролцож Зохиолч номын дүнгээ өөрчлөх үед энэ сервис дуудагдах ба өмнөх агуулагдах байгаа тоо хэмжээг буцаалт үүсгэж шинэ үнээр буцааж бүх агуулагдах өртгөө шинэчилдэг.
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem value="monos_v13" label="Monos v13" default>
                 <table>

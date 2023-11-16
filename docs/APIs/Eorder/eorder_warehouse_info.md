@@ -6,11 +6,11 @@ title: Агуулахын мэдээлэл татах
 
 `POST: http://dev13db.bumanerp.mn/eorder` 
 
-# Агуулга
+### Агуулга
 
 `bumanit_eorder_webservice` модульд хүсэлтийн хүлээн авах controller байна.
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: NO Authorization
@@ -35,7 +35,7 @@ Method - `get_stock_warehouse_information`
 ```
 
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -56,7 +56,7 @@ Method - `get_stock_warehouse_information`
 }
 ```
 
-# Параметрүүд
+### Параметрүүд
   1.  `method` - Тухайн хүсэлт ямар төрлийн хүсэлт эсэхийг тодорхойлно. Жишээ нь (Компанийн мэдээлэл татах,Харилцагчийн мэдээлэл татах гм)
   2.  `args` - Баазын нэр,Нэвтрэх нэр, Нууц үг дамжуулна.
   3.  `id` - Хүсэлтийн давтагдашгүй ID

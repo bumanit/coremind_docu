@@ -7,12 +7,12 @@ title: Нэхэмжлэхийн хуудас үүсгэх
 `POST: http://localhost:8069/api/brickmedia/account_move/create` 
 
 
-# Агуулга
+### Агуулга
 
 `bumanit_brickland` модульд хүсэлтийн хүлээн авах controller байх бөгөөд зөвхөн brickland талаас сэрвисийг ашиглана.
 .
 
-# Хүсэлт
+### Хүсэлт
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
@@ -30,7 +30,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 }
 ```
 
-# Хариултууд
+### Хариултууд
 
 `error/500`
 `success/200`
@@ -67,7 +67,7 @@ Brickland хүсэлт нь борлуулалт үүсгээд Ебаримт �
 
 `KEYS -> ORDER,EBARIMT,MAIL`
 
-# Параметрүүд
+### Параметрүүд
   <Tabs>
               <TabItem  default>
                 <table>
