@@ -21,8 +21,8 @@ keywords:
 - `hr`
 - `stock`
 - `sale`
-- [`bumanit_stock`](../../stock/bumanit_stock)
-- [`bumanit_sale_availability`](../../sales/bumanit_sale_availablility)
+- `bumanit_stock`
+- `bumanit_sale_availability`
 
 ### Functional requirements
 #### [`Дэлгэрэнгүй заавар`](../../../APIs/Eorder/eorder_api.mdx)
