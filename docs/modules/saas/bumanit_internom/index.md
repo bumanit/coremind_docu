@@ -18,7 +18,7 @@ keywords:
 
 ### Dependent modules
 
-- [`bumanit_pos_coupon`](../../pos/bumanit_pos_coupon)
+- `bumanit_pos_coupon`
 
 ### Functional requirements
 
