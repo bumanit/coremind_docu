@@ -20,7 +20,7 @@ keywords:
 
 - `base`
 - `bumanit_stock`
-- [`bumanit_emonos`](../bumanit_emonos)
+- [`bumanit_emonos`](../../sales/bumanit_emonos)
 
 ### Functional requirements
 
