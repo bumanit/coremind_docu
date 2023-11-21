@@ -1,7 +1,7 @@
 ---
 id: bumanit_internom
 description: bumanit_internom
-title: Интерном ХХК хөгжүүлэлтүүд
+title: Bumanit Internom
 keywords:
   - bumanit_internom
 # hide_table_of_contents: true

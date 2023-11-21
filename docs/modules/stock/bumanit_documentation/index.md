@@ -1,7 +1,7 @@
 ---
 id: bumanit_documentation
 description: bumanit_documentation
-title: Баримт бичиг
+title: Bumanit Documentation
 keywords:
   - bumanit_documentation
 # hide_table_of_contents: true

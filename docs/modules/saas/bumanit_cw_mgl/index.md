@@ -1,7 +1,7 @@
 ---
 id: bumanit_cwmgl
 description: bumanit_cwmgl
-title: CWMGL, Gourmet ХХК
+title: Bumanit CWMGL
 keywords:
   - bumanit_cwmgl
 # hide_table_of_contents: true

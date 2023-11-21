@@ -1,7 +1,7 @@
 ---
 id: bumanit_emonos
 description: bumanit_emonos
-title: Емонос нэмэлт хөгжүүлэлтүүд
+title: Bumanit Emonos
 keywords:
   - bumanit_emonos
 # hide_table_of_contents: true
@@ -20,7 +20,7 @@ keywords:
 
 - [`bumanit_account`](../../accounting/bumanit_account)
 - [`bumanit_sale`](../../sales/bumanit_sale)
-- [`bumanit_ecommerce`](../bumanit_emonos)
+- `bumanit_ecommerce`
 
 ### Functional requirements
 

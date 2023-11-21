@@ -1,7 +1,7 @@
 ---
 id: bumanit_inventory_revert
 description: bumanit_inventory_revert
-title: Бараа солих захиалга
+title: Bumanit Inventory Revert
 keywords:
   - bumanit_inventory_revert
 # hide_table_of_contents: true
