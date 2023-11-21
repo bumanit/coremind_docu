@@ -1,7 +1,7 @@
 ---
 id: bumanit_eorder_webservice
 description: bumanit_eorder_webservice
-title: Мэркури борлуулалтын сэрвис
+title: Bumanit Eorder
 keywords:
   - bumanit_eorder_webservice
 # hide_table_of_contents: true

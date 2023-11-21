@@ -1,7 +1,7 @@
 ---
 id: bumanit_delivery
 description: bumanit_delivery
-title: Емонос хүргэлтийн Апп
+title: Bumanit Delivery
 keywords:
   - bumanit_delivery
 # hide_table_of_contents: true
