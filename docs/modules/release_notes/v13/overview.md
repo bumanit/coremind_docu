@@ -27,5 +27,5 @@ sidebar_position: 1
 - [Product](/docs/modules/release_notes/v13/product)
 - [Purchase](/docs/modules/release_notes/v13/purchase)
 - [SaaS](/docs/modules/release_notes/v13/saas)
-- [Sale](/docs/modules/release_notes/v13/sale)
+- [Sales](/docs/modules/release_notes/v13/sales)
 - [Stock](/docs/modules/release_notes/v13/stock)
