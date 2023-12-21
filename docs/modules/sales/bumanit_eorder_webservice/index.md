@@ -25,7 +25,8 @@ keywords:
 - `bumanit_sale_availability`
 
 ### Functional requirements
-#### [`Дэлгэрэнгүй заавар`](../../../APIs/Eorder/eorder_api.mdx)
+
+<!-- #### [`Дэлгэрэнгүй заавар`](../../../APIs/Eorder/eorder_api.mdx) -->
 
 1.  [`Компанийн мэдээлэл татах`](../../../APIs/Eorder/eorder_company_info.md)
 2.  [`Харилцагчийн мэдээлэл татах`](../../../APIs/Eorder/eorder_partner_info)
@@ -43,14 +44,14 @@ keywords:
     - company_id (res.company)
     - fetch_type
     - rule
-2. res.company (inherit)
+2.  res.company (inherit)
     - sale_direct_invoice
     - sale_direct_picking_done
     - order_config_ids (order.config)
     - eorder_partner_id (res.partner)
-3. res.users (inherit)
+3.  res.users (inherit)
     - eorder_partner_id (res.partner)
-4. res.partner (inherit)
+4.  res.partner (inherit)
     - old_partner_id
-5. sale.order (inherit)
+5.  sale.order (inherit)
     - origin

@@ -2,10 +2,10 @@
 id: exp_get_res_company_information
 title: EOrder борлуулалтын сервис
 ---
+
 # EOrder борлуулалтын сервис
 
-`POST: http://dev13db.bumanerp.mn/eorder` 
-
+`POST: http://dev13db.bumanerp.mn/eorder`
 
 ### Агуулга
 
@@ -14,13 +14,14 @@ title: EOrder борлуулалтын сервис
 ### ERP тохиргоо
 
 1. Компани мэдээлэл дорорх Захиалгын тохиргоо таб дээр шаардлагатай ашиглах сервисүүдийг оруулж өгнө
+
    1. Eorder Partner гэсэн талбар дээр компанийн өөрсдийн ерп дээр бүртгэлтэй харилцагчийг сонгож өгнө.
-    ![Eorder erp company logo](../../../static/img/eorder/eorder_company.png "Eorder erp company")
+      <!-- ![Eorder erp company logo](../../../static/img/eorder/eorder_company.png "Eorder erp company") -->
 
 2. Системийн параметрээс mercur.connection гэсэн түлхүүр үгээр хайгаад ерп дээр бүртгэлтэй админ эрх бүхий хэрэглэгчийн ID г оруулж өгнө
-    1. {2:3} Жишээ нь 2 бол портол хэрэглэгч 3 бол админ хэрэглэгч. Сервис ашиглаж байгаа гадны компани дээр портал хэрэглэгчийн нэвтрэх нэр нууц үг өгөх бөгөөд ЕРП дээр хандалт орж ирэхэд админ хэрэглэгчээр систем ажиллана.
-        ![Eorder erp company logo](../../../static/img/eorder/eorder_ir_config.png "Eorder erp company")
-   
+   1. {2:3} Жишээ нь 2 бол портол хэрэглэгч 3 бол админ хэрэглэгч. Сервис ашиглаж байгаа гадны компани дээр портал хэрэглэгчийн нэвтрэх нэр нууц үг өгөх бөгөөд ЕРП дээр хандалт орж ирэхэд админ хэрэглэгчээр систем ажиллана.
+      <!-- ![Eorder erp company logo](../../../static/img/eorder/eorder_ir_config.png "Eorder erp company") -->
+
 ### Сервисүүд
 
 1.  [`Компанийн мэдээлэл татах`](./eorder_company_info)
@@ -32,6 +33,3 @@ title: EOrder борлуулалтын сервис
 7.  [`Барааны ангиллын мэдээлэл татах`](./eorder_prodict_category_info)
 8.  [`Барааны нөөцийн мэдээлэл`](./eorder_stock_info)
 9.  [`Борлуулалтын захиалга үүсгэх`](./eorder_create)
-
-
-
