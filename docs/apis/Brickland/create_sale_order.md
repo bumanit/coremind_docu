@@ -1,12 +1,10 @@
-
 ---
-id: api_brickland_create_account_move
 title: Нэхэмжлэхийн хуудас үүсгэх
 ---
+
 # Нэхэмжлэхийн хуудас үүсгэх
 
-`POST: http://localhost:8069/api/brickmedia/account_move/create` 
-
+`POST: http://localhost:8069/api/brickmedia/account_move/create`
 
 ### Агуулга
 
@@ -14,20 +12,20 @@ title: Нэхэмжлэхийн хуудас үүсгэх
 .
 
 ### Хүсэлт
+
 `application/json`
 
 Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 
-
 ```json
 {
-	"order_number":"ORDER 74",
-	"email":"altanhundaga123@gmail.com",
-	"pcode":"7700008",
-	"price":1400,
-	"ebarimt_type":2,
-	"vat":"MY98111018",
-	"note":"payment_type"
+  "order_number": "ORDER 74",
+  "email": "altanhundaga123@gmail.com",
+  "pcode": "7700008",
+  "price": 1400,
+  "ebarimt_type": 2,
+  "vat": "MY98111018",
+  "note": "payment_type"
 }
 ```
 
@@ -35,6 +33,7 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 
 `error/500`
 `success/200`
+
 ```json
 {
 	"jsonrpc": "2.0",
@@ -63,12 +62,13 @@ Example: Authorization: `Bearer SW50ZXJub20hQCM=`
 	]
 ```
 
-Brickland хүсэлт нь борлуулалт үүсгээд Ебаримт руу илгээгээд 
+Brickland хүсэлт нь борлуулалт үүсгээд Ебаримт руу илгээгээд
 мөн тухайн харилцагч майлээр ебаримтын дугаарыг илгээнэ
 
 `KEYS -> ORDER,EBARIMT,MAIL`
 
 ### Параметрүүд
+
   <Tabs>
               <TabItem  default>
                 <table>

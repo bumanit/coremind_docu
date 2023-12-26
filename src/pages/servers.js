@@ -240,6 +240,56 @@ export default function Hello() {
                   </tbody>
                 </table>
               </TabItem>
+              <TabItem value="monos_other" label="Monos Other">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Server</th>
+                      <th>Type</th>
+                      <th>Company</th>
+                      <th>User Login</th>
+                      <th>Cron / Service</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>10.0.0.110</td>
+                      <td>app, db, cron</td>
+                      <td>Monos Pharma</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.111</td>
+                      <td>app, db, cron</td>
+                      <td>Monos Foods</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.112</td>
+                      <td>app, db, cron</td>
+                      <td>Monos Cosmetics</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.113</td>
+                      <td>app, db, cron</td>
+                      <td>Monos Emonos</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                    <tr>
+                      <td>10.0.0.114</td>
+                      <td>app, db, cron</td>
+                      <td>Monos GGI, Others</td>
+                      <td>Domain</td>
+                      <td>Service</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </TabItem>
               <TabItem value="internal" label="Internal">
                 <table>
                   <thead>
