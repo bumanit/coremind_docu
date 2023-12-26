@@ -26,17 +26,15 @@ keywords:
 
 ### Functional requirements
 
-<!-- #### [`Дэлгэрэнгүй заавар`](../../../APIs/Eorder/eorder_api.mdx) -->
-
-1.  [`Компанийн мэдээлэл татах`](../../../APIs/Eorder/eorder_company_info.md)
-2.  [`Харилцагчийн мэдээлэл татах`](../../../APIs/Eorder/eorder_partner_info)
-3.  [`Агуулахын мэдээлэл татах`](../../../APIs/Eorder/eorder_warehouse_info)
-4.  [`Албан тушаалын мэдээлэл татах`](../../../APIs/Eorder/eorder_job_info)
-5.  [`Ажилтны мэдээлэл татах`](../../../APIs/Eorder/eorder_employee_info)
-6.  [`Хэмжих нэгжийн мэдээлэл татах`](../../../APIs/Eorder/eorder_uom_info)
-7.  [`Барааны ангиллын мэдээлэл татах`](../../../APIs/Eorder/eorder_prodict_category_info)
-8.  [`Барааны нөөцийн мэдээлэл`](../../../APIs/Eorder/eorder_stock_info)
-9.  [`Борлуулалтын захиалга үүсгэх`](../../../APIs/Eorder/eorder_create)
+1.  [`Компанийн мэдээлэл татах`](../../../apis/eorder/eorder_company_info.md)
+2.  [`Харилцагчийн мэдээлэл татах`](../../../apis/eorder/eorder_partner_info)
+3.  [`Агуулахын мэдээлэл татах`](../../../apis/eorder/eorder_warehouse_info)
+4.  [`Албан тушаалын мэдээлэл татах`](../../../apis/eorder/eorder_job_info)
+5.  [`Ажилтны мэдээлэл татах`](../../../apis/eorder/eorder_employee_info)
+6.  [`Хэмжих нэгжийн мэдээлэл татах`](../../../apis/eorder/eorder_uom_info)
+7.  [`Барааны ангиллын мэдээлэл татах`](../../../apis/eorder/eorder_prodict_category_info)
+8.  [`Барааны нөөцийн мэдээлэл`](../../../apis/eorder/eorder_stock_info)
+9.  [`Борлуулалтын захиалга үүсгэх`](../../../apis/eorder/eorder_create)
 
 ### Модел/Талбарууд
 
