@@ -12,7 +12,7 @@ export default function Hello() {
           <div className="col col--8">
             <h1>Servers</h1>
             <Tabs>
-              <TabItem value="monos_v13" label="Monos v13" default>
+              {/* <TabItem value="monos_v13" label="Monos v13" default>
                 <table>
                   <thead>
                     <tr>
@@ -96,7 +96,7 @@ export default function Hello() {
                     </tr>
                   </tbody>
                 </table>
-              </TabItem>
+              </TabItem> */}
               <TabItem value="monos_v10" label="Monos v10">
                 <table>
                   <thead>
